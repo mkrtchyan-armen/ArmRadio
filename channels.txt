@@ -1,1 +1,41 @@
-Հանրային - http://31.7.166.59:8000/stream
+<radioStations>
+    <item name="Հանրային ռադիո" url="http://31.7.166.59:8000/stream"/>
+    <item name="Ավտոռադիո" url="http://ic7.101.ru:8000/v3_1"/>
+    <item name="Իմ Ռադիո" url="http://31.7.166.59:8003/stream"/>
+    <item name="Լավ Ռադիո Mix" url="https://eu.stream4cast.com/proxy/lavradiomix/stream"/>
+    <item name="Լավ Ռադիո" url="https://eu.stream4cast.com/proxy/lavradio/stream"/>
+    <item name="Պաշտէ" url="https://streams.radio.co/sa0bf8ec29/listen"/>
+    <item name="Ռադիո Ազալիա" url="https://stream-153.zeno.fm/s865660v7hhvv"/>
+    <item name="Ռադիո Ավրորա" url="http://am.radioaurora.am:8010/al.mp3"/>
+    <item name="Երիտասարդության ձայնը" url="http://65.108.98.93:8123/stream?1734367162857"/>
+    <item name="Ռադիո Երևան" url="https://eu1.stream4cast.com/proxy/arradioi/stream"/>
+    <item name="Ռադիո Հայ" url="http://14678.cloudrad.io:9440/live"/>
+    <item name="Ռադիո Ջազ" url="http://am.radioaurora.am:8010/jz"/>
+    <item name="Ռադիո Մարիամ" url="https://live.radiomariam.am/RadioMariam"/>
+    <item name="Ռադիո Մարշալ" url="http://eu.stream4cast.com:8030/;stream.mp3"/>
+    <item name="Ռադիո Յան" url="http://83.169.36.75:8000/stream"/>
+    <item name="Ռադիո Շանսոն" url="https://chanson.hostingradio.ru:8041/chanson128.mp3"/>
+    <item name="Ռադիո Ջան" url="http://s7.voscast.com:10258/;"/>
+    <item name="Ռադիո Ջան USA" url="https://s4.voscast.com:8865/stream?1734367587939"/>
+    <item name="Ռադիո Վան" url="https://stream.radiovan.fm:8000/96_stereo"/>
+    <item name="Ռադիո Վեմ" url="https://eu1.stream4cast.com/proxy/vemradio/stream"/>
+    <item name="Ռադիո Arev" url="https://cast6.asurahosting.com/proxy/radioare/stream?1734368079092"/>
+    <item name="Ռադիո AYK" url="http://s3.streammonster.com:8117/;"/>
+    <item name="Ռադիո EuropaPlus" url="http://ep256.hostingradio.ru:8052/europaplus256.mp3"/>
+    <item name="Ռադիո Kiss FM" url="http://am.radioaurora.am:8010/kiss.aac"/>
+    <item name="Ռադիո Yeraz" url="https://streaming05.liveboxstream.uk/proxy/radioye3/stream?1734368159687"/>
+    <item name="Ռադիո Ֆամա" url="http://eu.stream4cast.com:8036/stream"/>
+    <item name="Ռադիո 105.5" url="http://14842.cloudrad.io:9536/live?ver=627240"/>
+    <item name="Armenian Gospel Radio" url="https://s8.myradiostream.com/:15554/listen.mp3"/>
+    <item name="Armenie" url="http://direct.radioarmenie.com:9029/stream"/>
+    <item name="Ayp-FM" url="https://stric6.streamakaci.com/radioayp.mp3"/>
+    <item name="KavkazFM" url="https://kavkazhit.hostingradio.ru:8017/kavkazhit96.mp3"/>
+    <item name="MFM Music Radio" url="http://live.mfm.am:8012/stream"/>
+    <item name="Radio Energy" url="https://eu.stream4cast.com/proxy/energyfm/stream"/>
+    <item name="Sputnik Armenia" url="https://icecast-rian.cdnvideo.ru/voicearm1"/>
+    <item name="Voice of Van" url="http://23.92.21.22/;stream.nsv"/>
+    <item name="Yerevan Nights" url="http://radio.yerevannights.com:81/YerevanNights"/>
+    <item name="XFM ռադիո" url="https://eu.stream4cast.com/proxy/xfmradio/stream"/>
+    <item name="Радио Мир" url="https://icecast-mirtv.cdnvideo.ru/radio_mir_256"/>
+    <item name="Русское Радио" url="http://rusradio.hostingradio.ru/rusradio128.mp3"/>
+</radioStations>
