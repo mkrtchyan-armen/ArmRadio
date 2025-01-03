@@ -1,5 +1,5 @@
 <radioStations>
-    <item name="Հանրային ռադիո" url="http://31.7.166.59:8000/stream"/>
+    <item name="Հանրային ռադիո" url="http://46.182.174.131:8000/stream"/>
     <item name="Ավտոռադիո" url="http://ic7.101.ru:8000/v3_1"/>
     <item name="Իմ Ռադիո" url="http://31.7.166.59:8003/stream"/>
     <item name="Լավ Ռադիո Mix" url="https://eu.stream4cast.com/proxy/lavradiomix/stream"/>
