@@ -7,7 +7,7 @@
     <item name="Լրատվական ռադիո" url="http://212.34.233.78:8000/live"/>
     <item name="Պաշտէ" url="https://streams.radio.co/sa0bf8ec29/listen"/>
     <item name="Ռադիո Ազալիա" url="https://stream-153.zeno.fm/s865660v7hhvv"/>
-    <item name="Ռադիո Արևիկ" url="http://46.182.174.130:8003/stream"/>
+    <item name="Ռադիո Արևիկ" url="https://eu1.stream4cast.com/proxy/aamiryan/stream"/>
     <item name="Ռադիո Ավրորա" url="http://am.radioaurora.am:8010/al.mp3"/>
     <item name="Երիտասարդության ձայնը" url="http://65.108.98.93:8123/stream?1734367162857"/>
     <item name="Ռադիո Երևան" url="https://eu1.stream4cast.com/proxy/arradioi/stream"/>
