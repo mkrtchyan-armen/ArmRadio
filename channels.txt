@@ -15,7 +15,7 @@
     <item name="Ռադիո Ջազ" url="http://am.radioaurora.am:8010/jz"/>
     <item name="Ռադիո Մարիամ" url="https://live.radiomariam.am/RadioMariam"/>
     <item name="Ռադիո Մարշալ" url="http://eu.stream4cast.com:8030/;stream.mp3"/>
-    <item name="Ռադիո Մշակույթ" url="http://46.182.174.130:8004/stream"/>
+    <item name="Ռադիո Մշակույթ" url="https://eu1.stream4cast.com/proxy/aamiry01/stream"/>
     <item name="Ռադիո Յան" url="http://83.169.36.75:8000/stream"/>
     <item name="Ռադիո Շանսոն" url="https://chanson.hostingradio.ru:8041/chanson128.mp3"/>
     <item name="Ռադիո Ջան" url="http://s7.voscast.com:10258/;"/>
