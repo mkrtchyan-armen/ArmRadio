@@ -33,7 +33,7 @@
     <item name="Armenie" url="http://direct.radioarmenie.com:9029/stream"/>
     <item name="Ayp-FM" url="https://stric6.streamakaci.com/radioayp.mp3"/>
     <item name="KavkazFM" url="https://kavkazhit.hostingradio.ru:8017/kavkazhit96.mp3"/>
-    <item name="MFM Music Radio" url="http://live.mfm.am:8012/stream"/>
+    <item name="MFM Music Radio" url="https://eu.stream4cast.com/proxy/mfmradio/stream"/>
     <item name="Radio Energy" url="https://eu.stream4cast.com/proxy/energyfm/stream"/>
     <item name="Sputnik Armenia" url="https://icecast-rian.cdnvideo.ru/voicearm1"/>
     <item name="Voice of Van" url="http://23.92.21.22/;stream.nsv"/>
