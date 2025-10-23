@@ -20,7 +20,7 @@
     <item name="Ռադիո Շանսոն" url="https://chanson.hostingradio.ru:8041/chanson128.mp3"/>
     <item name="Ռադիո Ջան" url="http://s7.voscast.com:10258/;"/>
     <item name="Ռադիո Ջան USA" url="https://s4.voscast.com:8865/stream?1734367587939"/>
-    <item name="Ռադիո Վան" url="https://stream.radiovan.fm:8000/32_stereo"/>
+    <item name="Ռադիո Վան" url="https://stream.radiovan.fm:8000/96_stereo"/>
     <item name="Ռադիո Վեմ" url="https://eu1.stream4cast.com/proxy/vemradio/stream"/>
     <item name="Ռադիո Arev" url="https://cast6.asurahosting.com/proxy/radioare/stream?1734368079092"/>
     <item name="Ռադիո AYK" url="http://s3.streammonster.com:8117/;"/>
