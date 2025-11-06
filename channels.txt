@@ -23,13 +23,13 @@
     <item name="Ռադիո Վան" url="https://stream.radiovan.fm:8000/96_stereo" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/van.png"/>
     <item name="Ռադիո Վեմ" url="https://eu1.stream4cast.com/proxy/vemradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/vem.jpg"/>
     <item name="Ռադիո Arev" url="https://cast6.asurahosting.com/proxy/radioare/stream?1734368079092"/>
-    <item name="Ռադիո AYK" url="http://s3.streammonster.com:8117/;"/>
+    <item name="Ռադիո AYK" url="http://s3.streammonster.com:8117/;" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/ayk.jpg"/>
     <item name="Ռադիո EuropaPlus" url="http://ep256.hostingradio.ru:8052/europaplus256.mp3"/>
     <item name="Ռադիո Kiss FM" url="https://am.radioaurora.am/kiss" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/kiss.jpg"/>
-    <item name="Ռադիո Yeraz" url="https://streaming05.liveboxstream.uk/proxy/radioye3/stream?1734368159687"/>
+    <item name="Ռադիո Yeraz" url="https://streaming05.liveboxstream.uk/proxy/radioye3/stream?1734368159687" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/yeraz.jpg"/>
     <item name="Ռադիո Ֆամա" url="http://eu.stream4cast.com:8036/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/fama.png"/>
     <item name="Ռադիո 105.5" url="http://14842.cloudrad.io:9536/live?ver=627240"/>
-    <item name="Armenian Gospel Radio" url="https://s8.myradiostream.com/:15554/listen.mp3"/>
+    <item name="Armenian Gospel Radio" url="https://s8.myradiostream.com/:15554/listen.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/gospel.jpg"/>
     <item name="Armenie" url="http://direct.radioarmenie.com:9029/stream"/>
     <item name="Ayp-FM" url="https://stric6.streamakaci.com/radioayp.mp3"/>
     <item name="KavkazFM" url="https://kavkazhit.hostingradio.ru:8017/kavkazhit96.mp3"/>
