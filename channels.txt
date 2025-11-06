@@ -15,7 +15,7 @@
     <item name="Ռադիո Ջազ" url="http://am.radioaurora.am:8010/jz" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/jazz.png"/>
     <item name="Ռադիո Մարիամ" url="https://live.radiomariam.am/RadioMariam" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/mariam.jpg"/>
     <item name="Ռադիո Մարշալ" url="http://eu.stream4cast.com:8030/;stream.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/marshal.jpg"/>
-    <item name="Ռադիո Մշակույթ" url="https://eu1.stream4cast.com/proxy/aamiry01/stream"/>
+    <item name="Ռադիո Մշակույթ" url="https://eu1.stream4cast.com/proxy/aamiry01/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/mshakuyt.jpg"/>
     <item name="Ռադիո Յան" url="http://83.169.36.75:8000/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/yan.jpg"/>
     <item name="Ռադիո Շանսոն" url="https://chanson.hostingradio.ru:8041/chanson128.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/shanson.png"/>
     <item name="Ռադիո Ջան" url="http://s7.voscast.com:10258/;" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/jan.png"/>
@@ -24,7 +24,7 @@
     <item name="Ռադիո Վեմ" url="https://eu1.stream4cast.com/proxy/vemradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/vem.jpg"/>
     <item name="Ռադիո Arev" url="https://cast6.asurahosting.com/proxy/radioare/stream?1734368079092" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/arev.png"/>
     <item name="Ռադիո AYK" url="http://s3.streammonster.com:8117/;" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/ayk.jpg"/>
-    <item name="Ռադիո EuropaPlus" url="http://ep256.hostingradio.ru:8052/europaplus256.mp3"/>
+    <item name="Ռադիո EuropaPlus" url="http://ep256.hostingradio.ru:8052/europaplus256.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/europa_plus.png"/>
     <item name="Ռադիո Kiss FM" url="https://am.radioaurora.am/kiss" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/kiss.jpg"/>
     <item name="Ռադիո Yeraz" url="https://streaming05.liveboxstream.uk/proxy/radioye3/stream?1734368159687" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/yeraz.jpg"/>
     <item name="Ռադիո Ֆամա" url="http://eu.stream4cast.com:8036/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/fama.png"/>
