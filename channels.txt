@@ -2,8 +2,8 @@
     <item name="Հանրային ռադիո" url="https://eu1.stream4cast.com/proxy/publicra/stream/;stream.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/hanrayin.png"/>
     <item name="Ավտոռադիո" url="http://ic7.101.ru:8000/v3_1" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/autoradio.png"/>
     <item name="Իմ Ռադիո" url="https://eu1.stream4cast.com/proxy/aamiry02/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/im_radio.jpg"/>
-    <item name="Լավ Ռադիո Mix" url="https://eu.stream4cast.com/proxy/lavradiomix/stream"/>
-    <item name="Լավ Ռադիո" url="https://eu.stream4cast.com/proxy/lavradio/stream"/>
+    <item name="Լավ Ռադիո Mix" url="https://eu.stream4cast.com/proxy/lavradiomix/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/lav_radio_mix.png"/>
+    <item name="Լավ Ռադիո" url="https://eu.stream4cast.com/proxy/lavradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/lav_radio.png"/>
     <item name="Լրատվական ռադիո" url="http://212.34.233.78:8000/live"/>
     <item name="Պաշտէ" url="https://streams.radio.co/sa0bf8ec29/listen"/>
     <item name="Ռադիո Ազալիա" url="https://stream-153.zeno.fm/s865660v7hhvv"/>
@@ -33,12 +33,12 @@
     <item name="Armenie" url="http://direct.radioarmenie.com:9029/stream"/>
     <item name="Ayp-FM" url="https://stric6.streamakaci.com/radioayp.mp3"/>
     <item name="KavkazFM" url="https://kavkazhit.hostingradio.ru:8017/kavkazhit96.mp3"/>
-    <item name="MFM Music Radio" url="https://eu.stream4cast.com/proxy/mfmradio/stream"/>
-    <item name="Radio Energy" url="https://eu.stream4cast.com/proxy/energyfm/stream"/>
+    <item name="MFM Music Radio" url="https://eu.stream4cast.com/proxy/mfmradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/mfm.png"/>
+    <item name="Radio Energy" url="https://eu.stream4cast.com/proxy/energyfm/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/energy.png"/>
     <item name="Sputnik Armenia" url="https://icecast-rian.cdnvideo.ru/voicearm1"/>
     <item name="Voice of Van" url="http://23.92.21.22/;stream.nsv"/>
     <item name="Yerevan Nights" url="http://radio.yerevannights.com:81/YerevanNights"/>
-    <item name="XFM ռադիո" url="https://eu.stream4cast.com/proxy/xfmradio/stream"/>
+    <item name="XFM ռադիո" url="https://eu.stream4cast.com/proxy/xfmradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/xfm.png"/>
     <item name="Радио Мир" url="https://icecast-mirtv.cdnvideo.ru/radio_mir_256"/>
     <item name="Радио Шансон Ереван" url="https://eu.stream4cast.com/proxy/ulissesm/stream"/>
     <item name="Русское Радио" url="http://rusradio.hostingradio.ru/rusradio128.mp3"/>
