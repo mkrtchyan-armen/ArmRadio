@@ -21,7 +21,7 @@
     <item name="Ռադիո Ջան" url="http://s7.voscast.com:10258/;" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/jan.png"/>
     <item name="Ռադիո Ջան USA" url="https://s4.voscast.com:8865/stream?1734367587939"/>
     <item name="Ռադիո Վան" url="https://stream.radiovan.fm:8000/96_stereo" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/van.png"/>
-    <item name="Ռադիո Վեմ" url="https://eu1.stream4cast.com/proxy/vemradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/pashte.jpg"/>
+    <item name="Ռադիո Վեմ" url="https://eu1.stream4cast.com/proxy/vemradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/vem.jpg"/>
     <item name="Ռադիո Arev" url="https://cast6.asurahosting.com/proxy/radioare/stream?1734368079092"/>
     <item name="Ռադիո AYK" url="http://s3.streammonster.com:8117/;"/>
     <item name="Ռադիո EuropaPlus" url="http://ep256.hostingradio.ru:8052/europaplus256.mp3"/>
