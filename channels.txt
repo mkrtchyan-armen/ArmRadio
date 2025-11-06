@@ -1,7 +1,7 @@
 <radioStations>
-    <item name="Հանրային ռադիո" url="https://eu1.stream4cast.com/proxy/publicra/stream/;stream.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/hanrayin.png"/>
-    <item name="Ավտոռադիո" url="http://ic7.101.ru:8000/v3_1" thumbnail="https://autoradio.am/images/header-new.png"/>
-    <item name="Իմ Ռադիո" url="https://eu1.stream4cast.com/proxy/aamiry02/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/im_radio.png"/>
+    <item name="Հանրային ռադիո" url="https://eu1.stream4cast.com/proxy/publicra/stream/;stream.mp3" thumbnail="hanrayin.png"/>
+    <item name="Ավտոռադիո" url="http://ic7.101.ru:8000/v3_1" thumbnail=autoradio.png"/>
+    <item name="Իմ Ռադիո" url="https://eu1.stream4cast.com/proxy/aamiry02/stream" thumbnail="im_radio.png"/>
     <item name="Լավ Ռադիո Mix" url="https://eu.stream4cast.com/proxy/lavradiomix/stream"/>
     <item name="Լավ Ռադիո" url="https://eu.stream4cast.com/proxy/lavradio/stream"/>
     <item name="Լրատվական ռադիո" url="http://212.34.233.78:8000/live"/>
