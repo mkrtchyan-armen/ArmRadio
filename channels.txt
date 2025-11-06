@@ -9,7 +9,7 @@
     <item name="Ռադիո Ազալիա" url="https://stream-153.zeno.fm/s865660v7hhvv" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/azalia.jpg"/>
     <item name="Ռադիո Արևիկ" url="https://eu1.stream4cast.com/proxy/aamiryan/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/arevik.png"/>
     <item name="Ռադիո Ավրորա" url="http://am.radioaurora.am:8010/al.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/aurora.png"/>
-    <item name="Երիտասարդության ձայնը" url="http://65.108.98.93:8123/stream?1734367162857"/>
+    <item name="Երիտասարդության ձայնը" url="http://65.108.98.93:8123/stream?1734367162857" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/yerit_dzayn.jpg"/>
     <item name="Ռադիո Երևան" url="https://eu1.stream4cast.com/proxy/arradioi/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/yerevan.png"/>
     <item name="Ռադիո Հայ" url="http://14678.cloudrad.io:9440/live" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/hay.png"/>
     <item name="Ռադիո Ջազ" url="http://am.radioaurora.am:8010/jz" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/jazz.png"/>
