@@ -28,7 +28,7 @@
     <item name="Ռադիո Kiss FM" url="https://am.radioaurora.am/kiss" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/kiss.jpg"/>
     <item name="Ռադիո Yeraz" url="https://streaming05.liveboxstream.uk/proxy/radioye3/stream?1734368159687" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/yeraz.jpg"/>
     <item name="Ռադիո Ֆամա" url="http://eu.stream4cast.com:8036/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/fama.png"/>
-    <item name="Ռադիո 105.5" url="http://14842.cloudrad.io:9536/live?ver=627240"/>
+    <item name="Ռադիո 105.5" url="http://14842.cloudrad.io:9536/live?ver=627240" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/fm1055.png"/>
     <item name="Armenian Gospel Radio" url="https://s8.myradiostream.com/:15554/listen.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/gospel.jpg"/>
     <item name="Armenie" url="http://direct.radioarmenie.com:9029/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/armenie.jpg"/>
     <item name="Ayp-FM" url="https://stric6.streamakaci.com/radioayp.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/ayp.png"/>
@@ -39,7 +39,7 @@
     <item name="Voice of Van" url="http://23.92.21.22/;stream.nsv" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/voice.jpg"/>
     <item name="Yerevan Nights" url="http://radio.yerevannights.com:81/YerevanNights" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/nights.png"/>
     <item name="XFM ռադիո" url="https://eu.stream4cast.com/proxy/xfmradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/xfm.png"/>
-    <item name="Радио Мир" url="https://icecast-mirtv.cdnvideo.ru/radio_mir_256"/>
+    <item name="Радио Мир" url="https://icecast-mirtv.cdnvideo.ru/radio_mir_256" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/mir.jpg"/>
     <item name="Радио Шансон Ереван" url="https://eu.stream4cast.com/proxy/ulissesm/stream"/>
-    <item name="Русское Радио" url="http://rusradio.hostingradio.ru/rusradio128.mp3"/>
+    <item name="Русское Радио" url="http://rusradio.hostingradio.ru/rusradio128.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/rusradio.jpg"/>
 </radioStations>
