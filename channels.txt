@@ -8,16 +8,16 @@
     <item name="Պաշտէ" url="https://streams.radio.co/sa0bf8ec29/listen" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/pashte.png"/>
     <item name="Ռադիո Ազալիա" url="https://stream-153.zeno.fm/s865660v7hhvv" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/azalia.jpg"/>
     <item name="Ռադիո Արևիկ" url="https://eu1.stream4cast.com/proxy/aamiryan/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/arevik.png"/>
-    <item name="Ռադիո Ավրորա" url="http://am.radioaurora.am:8010/al.mp3"/>
+    <item name="Ռադիո Ավրորա" url="http://am.radioaurora.am:8010/al.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/aurora.png"/>
     <item name="Երիտասարդության ձայնը" url="http://65.108.98.93:8123/stream?1734367162857"/>
     <item name="Ռադիո Երևան" url="https://eu1.stream4cast.com/proxy/arradioi/stream"/>
-    <item name="Ռադիո Հայ" url="http://14678.cloudrad.io:9440/live"/>
-    <item name="Ռադիո Ջազ" url="http://am.radioaurora.am:8010/jz"/>
-    <item name="Ռադիո Մարիամ" url="https://live.radiomariam.am/RadioMariam"/>
-    <item name="Ռադիո Մարշալ" url="http://eu.stream4cast.com:8030/;stream.mp3"/>
+    <item name="Ռադիո Հայ" url="http://14678.cloudrad.io:9440/live" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/hay.png"/>
+    <item name="Ռադիո Ջազ" url="http://am.radioaurora.am:8010/jz" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/jazz.jpg"/>
+    <item name="Ռադիո Մարիամ" url="https://live.radiomariam.am/RadioMariam" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/mariam.jpg"/>
+    <item name="Ռադիո Մարշալ" url="http://eu.stream4cast.com:8030/;stream.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/marshal.jpg"/>
     <item name="Ռադիո Մշակույթ" url="https://eu1.stream4cast.com/proxy/aamiry01/stream"/>
-    <item name="Ռադիո Յան" url="http://83.169.36.75:8000/stream"/>
-    <item name="Ռադիո Շանսոն" url="https://chanson.hostingradio.ru:8041/chanson128.mp3"/>
+    <item name="Ռադիո Յան" url="http://83.169.36.75:8000/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/yan.jpg"/>
+    <item name="Ռադիո Շանսոն" url="https://chanson.hostingradio.ru:8041/chanson128.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/shanson.png"/>
     <item name="Ռադիո Ջան" url="http://s7.voscast.com:10258/;"/>
     <item name="Ռադիո Ջան USA" url="https://s4.voscast.com:8865/stream?1734367587939"/>
     <item name="Ռադիո Վան" url="https://stream.radiovan.fm:8000/96_stereo"/>
