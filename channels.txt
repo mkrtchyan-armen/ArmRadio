@@ -41,5 +41,5 @@
     <item name="XFM ռադիո" url="https://eu.stream4cast.com/proxy/xfmradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/xfm.png"/>
     <item name="Радио Мир" url="https://icecast-mirtv.cdnvideo.ru/radio_mir_256" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/mir.jpg"/>
     <item name="Радио Шансон Ереван" url="https://eu.stream4cast.com/proxy/ulissesm/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/radio_shanson.png"/>
-    
+    <item name="Русское Радио" url="http://rusradio.hostingradio.ru/rusradio128.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/rusradio.jpg"/>
 </radioStations>
