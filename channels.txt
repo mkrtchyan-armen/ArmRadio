@@ -1,45 +1,45 @@
 <radioStations>
     <item name="Հանրային ռադիո" name_ru="Общественное радио" name_eng="Public Radio of Armenia" url="https://eu1.stream4cast.com/proxy/publicra/stream/;stream.mp3" thumbnail="https://radio.armblog.net/hanrayin.png"/>
-    <item name="Ավտոռադիո" name_ru="Авторадио" name_eng="Autoradio" url="http://ic7.101.ru:8000/v3_1" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/autoradio.png"/>
-    <item name="Իմ Ռադիո" name_ru="Им Радио" name_eng="Im Radio" url="https://eu1.stream4cast.com/proxy/aamiry02/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/im_radio.jpg"/>
-    <item name="Լավ Ռադիո Mix" name_ru="Лав Радио Mix" name_eng="Lav Radio Mix" url="https://eu.stream4cast.com/proxy/lavradiomix/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/lav_radio_mix.png"/>
-    <item name="Լավ Ռադիո" name_ru="Лав Радио" name_eng="Lav Radio" url="https://eu.stream4cast.com/proxy/lavradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/lav_radio.png"/>
-    <item name="Լրատվական ռադիո" name_ru="Новостное радио" name_eng="News Radio" url="http://212.34.233.78:8000/live" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/lratvakan.png"/>
-    <item name="Պաշտէ" name_ru="Паште" name_eng="Pashte" url="https://streams.radio.co/sa0bf8ec29/listen" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/pashte.png"/>
-    <item name="Ռադիո Ազալիա" name_ru="Радио Азалия" name_eng="Radio Azalia" url="https://stream-153.zeno.fm/s865660v7hhvv" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/azalia.jpg"/>
-    <item name="Ռադիո Արևիկ" name_ru="Радио Аревик" name_eng="Radio Arevik" url="https://eu1.stream4cast.com/proxy/aamiryan/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/arevik.png"/>
-    <item name="Ռադիո Ավրորա" name_ru="Радио Аврора" name_eng="Radio Aurora" url="http://am.radioaurora.am:8010/al.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/aurora.png"/>
-    <item name="Երիտասարդության ձայնը" name_ru="Голос Молодежи" name_eng="Youth Voice" url="http://65.108.98.93:8123/stream?1734367162857" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/yerit_dzayn.jpg"/>
-    <item name="Ռադիո Երևան" name_ru="Радио Ереван" name_eng="Radio Yerevan" url="https://eu1.stream4cast.com/proxy/arradioi/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/yerevan.png"/>
-    <item name="Ռադիո Հայ" name_ru="Радио Ай" name_eng="Radio Hay" url="http://14678.cloudrad.io:9440/live" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/hay.png"/>
-    <item name="Ռադիո Ջազ" name_ru="Радио Джаз" name_eng="Radio Jazz" url="http://am.radioaurora.am:8010/jz" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/jazz.png"/>
-    <item name="Ռադիո Մարիամ" name_ru="Радио Мариам" name_eng="Radio Mariam" url="https://live.radiomariam.am/RadioMariam" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/mariam.jpg"/>
-    <item name="Ռադիո Մարշալ" name_ru="Радио Маршал" name_eng="Radio Marshal" url="http://eu.stream4cast.com:8030/;stream.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/marshal.jpg"/>
-    <item name="Ռադիո Մշակույթ" name_ru="Радио Культура" name_eng="Radio Culture" url="https://eu1.stream4cast.com/proxy/aamiry01/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/mshakuyt.jpg"/>
-    <item name="Ռադիո Յան" name_ru="Радио Ян" name_eng="Radio Yan" url="http://83.169.36.75:8000/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/yan.jpg"/>
-    <item name="Ռադիո Շանսոն" name_ru="Радио Шансон" name_eng="Radio Chanson" url="https://chanson.hostingradio.ru:8041/chanson128.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/shanson.png"/>
-    <item name="Ռադիո Ջան" name_ru="Радио Джан" name_eng="Radio Jan" url="http://s7.voscast.com:10258/;" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/jan.png"/>
-    <item name="Ռադիո Ջան USA" name_ru="Радио Джан USA" name_eng="Radio Jan USA" url="https://s4.voscast.com:8865/stream?1734367587939" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/jan_usa.png"/>
-    <item name="Ռադիո Վան" name_ru="Радио Ван" name_eng="Radio Van" url="https://stream.radiovan.fm:8000/96_stereo" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/van.png"/>
-    <item name="Ռադիո Վեմ" name_ru="Радио Вем" name_eng="Radio Vem" url="https://eu1.stream4cast.com/proxy/vemradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/vem.jpg"/>
-    <item name="Ռադիո Arev" name_ru="Радио Арев" name_eng="Radio Arev" url="https://cast6.asurahosting.com/proxy/radioare/stream?1734368079092" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/arev.png"/>
-    <item name="Ռադիո AYK" name_ru="Радио AYK" name_eng="Radio AYK" url="http://s3.streammonster.com:8117/;" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/ayk.jpg"/>
-    <item name="Ռադիո EuropaPlus" name_ru="Радио Европа Плюс" name_eng="Radio Europa Plus" url="http://ep256.hostingradio.ru:8052/europaplus256.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/europa_plus.png"/>
-    <item name="Ռադիո Kiss FM" name_ru="Радио Kiss FM" name_eng="Radio Kiss FM" url="https://am.radioaurora.am/kiss" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/kiss.jpg"/>
-    <item name="Ռադիո Yeraz" name_ru="Радио Ераз" name_eng="Radio Yeraz" url="https://streaming05.liveboxstream.uk/proxy/radioye3/stream?1734368159687" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/yeraz.jpg"/>
-    <item name="Ռադիո Ֆամա" name_ru="Радио Фама" name_eng="Radio Fama" url="http://eu.stream4cast.com:8036/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/fama.png"/>
-    <item name="Ռադիո 105.5" name_ru="Радио 105.5" name_eng="Radio 105.5" url="http://14842.cloudrad.io:9536/live?ver=627240" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/fm1055.png"/>
-    <item name="Armenian Gospel Radio" name_ru="Armenian Gospel Radio" name_eng="Armenian Gospel Radio" url="https://s8.myradiostream.com/:15554/listen.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/gospel.jpg"/>
-    <item name="Armenie" name_ru="Armenie" name_eng="Armenie" url="http://direct.radioarmenie.com:9029/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/armenie.jpg"/>
-    <item name="Ayp-FM" name_ru="Ayp-FM" name_eng="Ayp-FM" url="https://stric6.streamakaci.com/radioayp.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/ayp.png"/>
-    <item name="KavkazFM" name_ru="KavkazFM" name_eng="KavkazFM" url="https://kavkazhit.hostingradio.ru:8017/kavkazhit96.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/kavkaz.png"/>
-    <item name="MFM Music Radio" name_ru="MFM Music Radio" name_eng="MFM Music Radio" url="https://eu.stream4cast.com/proxy/mfmradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/mfm.png"/>
-    <item name="Radio Energy" name_ru="Radio Energy" name_eng="Radio Energy" url="https://eu.stream4cast.com/proxy/energyfm/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/energy.png"/>
-    <item name="Sputnik Armenia" name_ru="Sputnik Армения" name_eng="Sputnik Armenia" url="https://icecast-rian.cdnvideo.ru/voicearm1"  thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/sputnik.jpg"/>
-    <item name="Voice of Van" name_ru="Voice of Van" name_eng="Voice of Van" url="http://23.92.21.22/;stream.nsv" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/voice.jpg"/>
-    <item name="Yerevan Nights" name_ru="Yerevan Nights" name_eng="Yerevan Nights" url="http://radio.yerevannights.com:81/YerevanNights" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/nights.png"/>
-    <item name="XFM ռադիո" name_ru="Радио XFM" name_eng="XFM Radio" url="https://eu.stream4cast.com/proxy/xfmradio/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/xfm.png"/>
-    <item name="Радио Мир" name_ru="Радио Мир" name_eng="Radio Mir" url="https://icecast-mirtv.cdnvideo.ru/radio_mir_256" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/mir.jpg"/>
-    <item name="Радио Шансон Ереван" name_ru="Радио Шансон Ереван" name_eng="Radio Chanson Yerevan" url="https://eu.stream4cast.com/proxy/ulissesm/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/radio_shanson.png"/>
-    <item name="Русское Радио" name_ru="Русское Радио" name_eng="Russkoe Radio" url="http://rusradio.hostingradio.ru/rusradio128.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/rusradio.jpg"/>
+    <item name="Ավտոռադիո" name_ru="Авторадио" name_eng="Autoradio" url="http://ic7.101.ru:8000/v3_1" thumbnail="https://radio.armblog.net/autoradio.png"/>
+    <item name="Իմ Ռադիո" name_ru="Им Радио" name_eng="Im Radio" url="https://eu1.stream4cast.com/proxy/aamiry02/stream" thumbnail="https://radio.armblog.net/im_radio.jpg"/>
+    <item name="Լավ Ռադիո Mix" name_ru="Лав Радио Mix" name_eng="Lav Radio Mix" url="https://eu.stream4cast.com/proxy/lavradiomix/stream" thumbnail="https://radio.armblog.net/lav_radio_mix.png"/>
+    <item name="Լավ Ռադիո" name_ru="Лав Радио" name_eng="Lav Radio" url="https://eu.stream4cast.com/proxy/lavradio/stream" thumbnail="https://radio.armblog.net/lav_radio.png"/>
+    <item name="Լրատվական ռադիո" name_ru="Новостное радио" name_eng="News Radio" url="http://212.34.233.78:8000/live" thumbnail="https://radio.armblog.net/lratvakan.png"/>
+    <item name="Պաշտէ" name_ru="Паште" name_eng="Pashte" url="https://streams.radio.co/sa0bf8ec29/listen" thumbnail="https://radio.armblog.net/pashte.png"/>
+    <item name="Ռադիո Ազալիա" name_ru="Радио Азалия" name_eng="Radio Azalia" url="https://stream-153.zeno.fm/s865660v7hhvv" thumbnail="https://radio.armblog.net/azalia.jpg"/>
+    <item name="Ռադիո Արևիկ" name_ru="Радио Аревик" name_eng="Radio Arevik" url="https://eu1.stream4cast.com/proxy/aamiryan/stream" thumbnail="https://radio.armblog.net/arevik.png"/>
+    <item name="Ռադիո Ավրորա" name_ru="Радио Аврора" name_eng="Radio Aurora" url="http://am.radioaurora.am:8010/al.mp3" thumbnail="https://radio.armblog.net/aurora.png"/>
+    <item name="Երիտասարդության ձայնը" name_ru="Голос Молодежи" name_eng="Youth Voice" url="http://65.108.98.93:8123/stream?1734367162857" thumbnail="https://radio.armblog.net/yerit_dzayn.jpg"/>
+    <item name="Ռադիո Երևան" name_ru="Радио Ереван" name_eng="Radio Yerevan" url="https://eu1.stream4cast.com/proxy/arradioi/stream" thumbnail="https://radio.armblog.net/yerevan.png"/>
+    <item name="Ռադիո Հայ" name_ru="Радио Ай" name_eng="Radio Hay" url="http://14678.cloudrad.io:9440/live" thumbnail="https://radio.armblog.net/hay.png"/>
+    <item name="Ռադիո Ջազ" name_ru="Радио Джаз" name_eng="Radio Jazz" url="http://am.radioaurora.am:8010/jz" thumbnail="https://radio.armblog.net/jazz.png"/>
+    <item name="Ռադիո Մարիամ" name_ru="Радио Мариам" name_eng="Radio Mariam" url="https://live.radiomariam.am/RadioMariam" thumbnail="https://radio.armblog.net/mariam.jpg"/>
+    <item name="Ռադիո Մարշալ" name_ru="Радио Маршал" name_eng="Radio Marshal" url="http://eu.stream4cast.com:8030/;stream.mp3" thumbnail="https://radio.armblog.net/marshal.jpg"/>
+    <item name="Ռադիո Մշակույթ" name_ru="Радио Культура" name_eng="Radio Culture" url="https://eu1.stream4cast.com/proxy/aamiry01/stream" thumbnail="https://radio.armblog.net/mshakuyt.jpg"/>
+    <item name="Ռադիո Յան" name_ru="Радио Ян" name_eng="Radio Yan" url="http://83.169.36.75:8000/stream" thumbnail="https://radio.armblog.net/yan.jpg"/>
+    <item name="Ռադիո Շանսոն" name_ru="Радио Шансон" name_eng="Radio Chanson" url="https://chanson.hostingradio.ru:8041/chanson128.mp3" thumbnail="https://radio.armblog.net/shanson.png"/>
+    <item name="Ռադիո Ջան" name_ru="Радио Джан" name_eng="Radio Jan" url="http://s7.voscast.com:10258/;" thumbnail="https://radio.armblog.net/jan.png"/>
+    <item name="Ռադիո Ջան USA" name_ru="Радио Джан USA" name_eng="Radio Jan USA" url="https://s4.voscast.com:8865/stream?1734367587939" thumbnail="https://radio.armblog.net/jan_usa.png"/>
+    <item name="Ռադիո Վան" name_ru="Радио Ван" name_eng="Radio Van" url="https://stream.radiovan.fm:8000/96_stereo" thumbnail="https://radio.armblog.net/van.png"/>
+    <item name="Ռադիո Վեմ" name_ru="Радио Вем" name_eng="Radio Vem" url="https://eu1.stream4cast.com/proxy/vemradio/stream" thumbnail="https://radio.armblog.net/vem.jpg"/>
+    <item name="Ռադիո Arev" name_ru="Радио Арев" name_eng="Radio Arev" url="https://cast6.asurahosting.com/proxy/radioare/stream?1734368079092" thumbnail="https://radio.armblog.net/arev.png"/>
+    <item name="Ռադիո AYK" name_ru="Радио AYK" name_eng="Radio AYK" url="http://s3.streammonster.com:8117/;" thumbnail="https://radio.armblog.net/ayk.jpg"/>
+    <item name="Ռադիո EuropaPlus" name_ru="Радио Европа Плюс" name_eng="Radio Europa Plus" url="http://ep256.hostingradio.ru:8052/europaplus256.mp3" thumbnail="https://radio.armblog.net/europa_plus.png"/>
+    <item name="Ռադիո Kiss FM" name_ru="Радио Kiss FM" name_eng="Radio Kiss FM" url="https://am.radioaurora.am/kiss" thumbnail="https://radio.armblog.net/kiss.jpg"/>
+    <item name="Ռադիո Yeraz" name_ru="Радио Ераз" name_eng="Radio Yeraz" url="https://streaming05.liveboxstream.uk/proxy/radioye3/stream?1734368159687" thumbnail="https://radio.armblog.net/yeraz.jpg"/>
+    <item name="Ռադիո Ֆամա" name_ru="Радио Фама" name_eng="Radio Fama" url="http://eu.stream4cast.com:8036/stream" thumbnail="https://radio.armblog.net/fama.png"/>
+    <item name="Ռադիո 105.5" name_ru="Радио 105.5" name_eng="Radio 105.5" url="http://14842.cloudrad.io:9536/live?ver=627240" thumbnail="https://radio.armblog.net/fm1055.png"/>
+    <item name="Armenian Gospel Radio" name_ru="Armenian Gospel Radio" name_eng="Armenian Gospel Radio" url="https://s8.myradiostream.com/:15554/listen.mp3" thumbnail="https://radio.armblog.net/gospel.jpg"/>
+    <item name="Armenie" name_ru="Armenie" name_eng="Armenie" url="http://direct.radioarmenie.com:9029/stream" thumbnail="https://radio.armblog.net/armenie.jpg"/>
+    <item name="Ayp-FM" name_ru="Ayp-FM" name_eng="Ayp-FM" url="https://stric6.streamakaci.com/radioayp.mp3" thumbnail="https://radio.armblog.net/ayp.png"/>
+    <item name="KavkazFM" name_ru="KavkazFM" name_eng="KavkazFM" url="https://kavkazhit.hostingradio.ru:8017/kavkazhit96.mp3" thumbnail="https://radio.armblog.net/kavkaz.png"/>
+    <item name="MFM Music Radio" name_ru="MFM Music Radio" name_eng="MFM Music Radio" url="https://eu.stream4cast.com/proxy/mfmradio/stream" thumbnail="https://radio.armblog.net/mfm.png"/>
+    <item name="Radio Energy" name_ru="Radio Energy" name_eng="Radio Energy" url="https://eu.stream4cast.com/proxy/energyfm/stream" thumbnail="https://radio.armblog.net/energy.png"/>
+    <item name="Sputnik Armenia" name_ru="Sputnik Армения" name_eng="Sputnik Armenia" url="https://icecast-rian.cdnvideo.ru/voicearm1" thumbnail="https://radio.armblog.net/sputnik.jpg"/>
+    <item name="Voice of Van" name_ru="Voice of Van" name_eng="Voice of Van" url="http://23.92.21.22/;stream.nsv" thumbnail="https://radio.armblog.net/voice.jpg"/>
+    <item name="Yerevan Nights" name_ru="Yerevan Nights" name_eng="Yerevan Nights" url="http://radio.yerevannights.com:81/YerevanNights" thumbnail="https://radio.armblog.net/nights.png"/>
+    <item name="XFM ռադիո" name_ru="Радио XFM" name_eng="XFM Radio" url="https://eu.stream4cast.com/proxy/xfmradio/stream" thumbnail="https://radio.armblog.net/xfm.png"/>
+    <item name="Радио Мир" name_ru="Радио Мир" name_eng="Radio Mir" url="https://icecast-mirtv.cdnvideo.ru/radio_mir_256" thumbnail="https://radio.armblog.net/mir.jpg"/>
+    <item name="Радио Шансон Ереван" name_ru="Радио Шансон Ереван" name_eng="Radio Chanson Yerevan" url="https://eu.stream4cast.com/proxy/ulissesm/stream" thumbnail="https://radio.armblog.net/radio_shanson.png"/>
+    <item name="Русское Радио" name_ru="Русское Радио" name_eng="Russkoe Radio" url="http://rusradio.hostingradio.ru/rusradio128.mp3" thumbnail="https://radio.armblog.net/rusradio.jpg"/>
 </radioStations>
