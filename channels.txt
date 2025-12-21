@@ -1,5 +1,5 @@
 <radioStations>
-    <item name="Հանրային ռադիո" name_ru="Общественное радио" name_eng="Public Radio of Armenia" url="https://eu1.stream4cast.com/proxy/publicra/stream/;stream.mp3" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/hanrayin.png"/>
+    <item name="Հանրային ռադիո" name_ru="Общественное радио" name_eng="Public Radio of Armenia" url="https://eu1.stream4cast.com/proxy/publicra/stream/;stream.mp3" thumbnail="https://radio.armblog.net/hanrayin.png"/>
     <item name="Ավտոռադիո" name_ru="Авторадио" name_eng="Autoradio" url="http://ic7.101.ru:8000/v3_1" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/autoradio.png"/>
     <item name="Իմ Ռադիո" name_ru="Им Радио" name_eng="Im Radio" url="https://eu1.stream4cast.com/proxy/aamiry02/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/im_radio.jpg"/>
     <item name="Լավ Ռադիո Mix" name_ru="Лав Радио Mix" name_eng="Lav Radio Mix" url="https://eu.stream4cast.com/proxy/lavradiomix/stream" thumbnail="https://mkrtchyan-armen.github.io/ArmRadio/lav_radio_mix.png"/>
