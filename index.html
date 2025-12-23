@@ -109,7 +109,6 @@
         .radio-card:hover { transform: translateY(-5px); border-color: var(--primary); }
         .radio-card img { width: 60px; height: 60px; border-radius: 50%; margin-bottom: 12px; object-fit: cover; }
 
-        /* HIGHLIGHT FOR SELECTED CHANNEL */
         .radio-card.selected { 
             border: 2px solid var(--primary); 
             background: #fff;
@@ -129,7 +128,6 @@
         .player-meta h4 { margin: 0; font-size: 0.95rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .player-meta p { margin: 0; font-size: 0.75rem; color: #666; }
 
-        /* SIMPLE CSS VISUALIZER */
         #visualizer-container { flex: 1; height: 40px; display: flex; align-items: center; justify-content: center; gap: 4px; }
         .music-bar { width: 4px; height: 8px; background: var(--primary); border-radius: 10px; }
         .playing .music-bar { animation: simplePulse 1s ease-in-out infinite; }
@@ -171,7 +169,7 @@
     <header class="container">
         <div class="logo"><img src="logo.png" alt="ArmRadio Logo"> ArmRadio</div>
         <nav>
-            <a href="#live" id="nav-live"Լսել հիմա</a>
+            <a href="#live" id="nav-live">Լսել հիմա</a>
             <a href="#features" id="nav-features">Հատկանիշներ</a>
             <a href="#contact" id="nav-contact">Հետադարձ կապ</a>
             <div class="lang-switcher">
@@ -185,8 +183,8 @@
 
     <section class="hero container">
         <div class="hero-content">
-            <h1 id="hero-title">Բոլոր Հայկական ռադիոկայանները <br><span id="hero-title-span">Մեկ անվճար հավելվածում։</span></h1>
-            <p id="hero-description"><strong>ArmRadio</strong>-ն միավորում է <strong>բոլոր հայկական օնլայն </strong> ռադիոկայանները մեկ վայրում:</p>
+            <h1 id="hero-title">Բոլոր hայկական ռադիոկայանները <br><span id="hero-title-span">Մեկ անվճար հավելվածում։</span></h1>
+            <p id="hero-description">Հասանելի է <strong>Android</strong> համակարգի համար և որպես ընդլայնում՝ <strong>Chrome և Edge</strong> դիտարկիչներում։ <strong>iOS</strong> և այլ համակարգերում կարող եք լսել անմիջապես դիտարկչից</p>
             <div class="download-grid">
                 <a href="https://play.google.com/store/apps/details?id=net.armblog.armradio" class="btn-store btn-google" target="_blank"><img src="google-play.png"> Google Play</a>
                 <a href="https://appgallery.huawei.com/#/app/C102504681" class="btn-store btn-huawei" target="_blank"><img src="appgallery.png"> AppGallery</a>
@@ -195,7 +193,7 @@
                 <a href="https://microsoftedge.microsoft.com/addons/detail/edge-radio-player/ncdnpkabdlibphgblonleadfpfabjbog" class="btn-store btn-edge" target="_blank"><img src="edge.png"> Edge</a>
                 <a href="#" class="btn-store btn-apk"><img src="apk.png"> APK</a>
                 <a href="#live" class="btn-store btn-listen-online">
-                    <span id="text-listen-online">Լսել վեբ տարբերակով</span> <span class="badge-new" id="badge-new">NEW</span>
+                    <span id="text-listen-online">Լսել հիմա</span> <span class="badge-new" id="badge-new">NEW</span>
                 </a>
             </div>
         </div>
@@ -212,7 +210,7 @@
     <section id="live" class="radio-section">
         <div class="container">
             <div class="section-title">
-                <h2 id="live-title">Լսել անմիջապես դիտարկչում</h2>
+                <h2 id="live-title">Լսել հիմա</h2>
                 <p id="live-subtitle">Ընտրեք կայանը</p>
             </div>
             <div class="radio-grid" id="radio-grid"></div>
@@ -233,7 +231,7 @@
         <div class="container">
             <div class="section-title">
                 <h2 id="contact-title">Հետադարձ Կապ</h2>
-                <p id="contact-subtitle">Ունե՞ք առաջարկություն կամ գտե՞լ եք սխալ: Գրեք այստեղ:</p>
+                <p id="contact-subtitle">Ունե՞ք առաջարկություն կամ գտե՞լ եք սխալ:</p>
             </div>
             <div class="contact-form">
                 <form action="https://formspree.io/f/xvgejddr" method="POST">
@@ -282,6 +280,9 @@
         const playBtn = document.getElementById('play-pause-btn');
         const volSlider = document.getElementById('volume-slider');
         const vizContainer = document.getElementById('visualizer-container');
+        
+        let allStations = [];
+        let currentPlayingUrl = "";
 
         function toggleTheme() {
             const isDark = document.body.classList.toggle('dark');
@@ -294,13 +295,14 @@
                 'page-title': 'ArmRadio - Armenian Online Radio', 
                 'nav-live': 'Start Listening', 'nav-features': 'Features', 'nav-contact': 'Contact',
                 'hero-title': 'All Armenian Radio Stations in', 'hero-title-span': 'One Free App.',
-                'hero-description': '<strong>ArmRadio</strong> brings all <strong>Armenian radio stations</strong> together in one place',
-                'live-title': 'Listen Live', 'live-subtitle': 'Choose a station and enjoy music directly in your browser.',
+                'hero-description': 'Available for <strong>Android</strong> and as an extension for <strong>Chrome</strong> and <strong>Edge</strong>. On <strong>iOS</strong> and other platforms, you can use the <strong>web version</strong>',
+                'live-title': 'Start Listening', 'live-subtitle': 'Choose a station and enjoy music directly in your browser',
                 'section-title': 'Designed for the Best Experience', 'section-subtitle': 'Simple, reliable, and always up-to-date.',
                 'contact-title': 'Get in Touch', 'contact-subtitle': 'Have a suggestion or found a bug? Let us know!',
                 'lbl-name': 'Name', 'lbl-email': 'Email', 'lbl-message': 'Message',
                 'ph-name': 'Your Name', 'ph-msg': 'How can we help?',
-                'btn-send': 'Send Message', 'badge-new': 'New', 'badge-soon': 'Soon', 'text-listen-online': 'Listen Online',
+                'btn-send': 'Send Message', 'badge-new': 'New', 'badge-soon': 'Soon', 'text-listen-online': 'Start Listening',
+                'player-status': 'Live Stream',
                 'features': [
                     {icon: '✨', title: 'Completely Ad-Free', desc: 'Enjoy high-quality streaming without interruptions.'},
                     {icon: '⚙️', title: 'Auto-Updated Stations', desc: 'Stations are added dynamically.'},
@@ -309,50 +311,52 @@
                     {icon: '🌗', title: 'Light & Dark Themes', desc: 'Switch between white and black themes.'},
                     {icon: '↔️', title: 'Adaptive Layout', desc: 'Perfect for phones, tablets, or car dashboards.'},
                     {icon: '♥', title: 'Quick Favorites', desc: 'One-tap access to your top stations.'},
-                    {icon: '📲', title: 'Multi-Store', desc: 'Available on Play Store, AppGallery and more.'},
+                    {icon: '📲', title: 'Multi-store & multi-platform', desc: 'Play Store, AppGallery, RuStore, APK direct download, web version, Chrome/Edge extension'},
                     {icon: '▦', title: 'Grid or List View', desc: 'Choose your preferred viewing mode.'},
                     {icon: '⚡', title: 'Ideal for Chinese EVs', desc: "Indispensable for BYD, Deepal, Li and more."},
                     {icon: '➕', title: 'Custom Stations', desc: 'Add your own streaming URLs soon.', isSoon: true},
-                    {icon: '🚗', title: 'Android Auto', desc: 'Safe dashboard access coming soon.', isSoon: true}
+                    {icon: '🚗', title: 'Android Auto', desc: 'Display ArmRadio app from your Android phone on an Android Auto-supported car head-unit', isSoon: true}
                 ]
             },
             'am': {
                 'page-title': 'ArmRadio - Հայկական առցանց ռադիո', 
                 'nav-live': 'Լսել հիմա', 'nav-features': 'Հատկանիշներ', 'nav-contact': 'Հետադարձ կապ',
                 'hero-title': 'Բոլոր Հայկական ռադիոկայանները', 'hero-title-span': 'Մեկ անվճար հավելվածում։',
-                'hero-description': '<strong>ArmRadio</strong>-ն միավորում է <strong>բոլոր հայկական օնլայն </strong> ռադիոկայանները մեկ վայրում:',
-                'live-title': 'Լսել վեբ տարբերակով', 'live-subtitle': 'Ընտրեք կայանը և վայելեք հայկական երաժշտությունը:',
+                'hero-description': 'Հասանելի է <strong>Android</strong> համակարգի համար և որպես ընդլայնում՝ <strong>Chrome</strong> և <strong>Edge</strong> դիտարկիչներում։ <strong>iOS</strong> և այլ համակարգերում կարող եք օգտվել <strong>վեբ տարբերակից</strong>',
+                'live-title': 'Լսել հիմա', 'live-subtitle': 'Ընտրեք ռադիոկայան և լսեք անմիջապես դիտարկիչում',
                 'section-title': 'Նախագծված է լավագույն փորձի համար', 'section-subtitle': 'Պարզ, հուսալի և միշտ թարմացված։',
-                'contact-title': 'Հետադարձ Կապ', 'contact-subtitle': 'Ունեք առաջարկությո՞ւն կամ գտել եք սխա՞լ: Գրեք մեզ:',
+                'contact-title': 'Հետադարձ Կապ', 'contact-subtitle': 'Ունե՞ք առաջարկություն կամ գտե՞լ եք սխալ:',
                 'lbl-name': 'Անուն', 'lbl-email': 'Էլ. փոստ', 'lbl-message': 'Հաղորդագրություն',
                 'ph-name': 'Ձեր անունը', 'ph-msg': 'Ինչպե՞ս կարող ենք օգնել:',
-                'btn-send': 'Ուղարկել', 'badge-new': 'ՆՈՐ', 'badge-soon': 'Շուտով', 'text-listen-online': 'Լսել Ուղիղ Եթերում',
+                'btn-send': 'Ուղարկել', 'badge-new': 'ՆՈՐ', 'badge-soon': 'Շուտով', 'text-listen-online': 'Լսել հիմա',
+                'player-status': 'Ուղիղ եթեր',
                 'features': [
-                    {icon: '✨', title: 'Անվճար և Առանց Գովազդի', desc: 'Վայելեք անվերջ բարձրորակ հոսք առանց ընդհատումների:'},
-                    {icon: '⚙️', title: 'Ավտոմատ թարմացում', desc: 'Ցանկը թարմացվում է ավտոմատ կերպով:'},
-                    {icon: '🔊', title: 'Ֆոնային նվագարկում', desc: 'Աշխատում է երբ էկրանը փակ է:'},
-                    {icon: '🎧', title: 'Հեռակառավարում', desc: 'Կառավարեք ականջակալներով կամ ղեկից:'},
-                    {icon: '🌗', title: 'Բաց և մուգ թեմաներ', desc: 'Հեշտությամբ անցեք Սպիտակ և Սև թեմաների միջև:'},
-                    {icon: '↔️', title: 'Ադապտիվ դասավորություն', desc: 'Կատարյալ հեռախոսների և մեքենաների վրա:'},
-                    {icon: '♥', title: 'Ընտրյալներ', desc: 'Արագ մուտք դեպի սիրելի կայաններ:'},
-                    {icon: '📲', title: 'Լայն հասանելիություն', desc: 'Play Store, AppGallery և RuStore:'},
+                    {icon: '✨', title: 'Անվճար և առանց գովազդի', desc: 'Հավելվածն ամբողջովին անվճար է և չի պարունակում թաքնված կամ բացահայտ գովազդ:'},
+                    {icon: '⚙️', title: 'Ավտոմատ թարմացում', desc: 'Կայանների ցանկը թարմացվում է ավտոմատ կերպով:'},
+                    {icon: '🔊', title: 'Ֆոնային նվագարկում', desc: 'Անխափան աշխատում է ֆոնային ռեժիմում:'},
+                    {icon: '🎧', title: 'Հեռակառավարում', desc: 'Կառավարեք Bluetooth ականջակալների կոճակներից կամ մեքենայի ղեկից:'},
+                    {icon: '🌗', title: 'Բաց և մուգ թեմաներ', desc: 'Ընտրեք ձեր նախընտրած գունային գամման:'},
+                    {icon: '↔️', title: 'Ադապտիվ ինտերֆեյս', desc: 'Ադապտիվ ինտերֆեյս տարբեր չափսերով սարքերի վրա:'},
+                    {icon: '♥', title: 'Ընտրյալներ', desc: 'Պահպանեք հավանած կայաններն առանձին ցուցակում:'},
+                    {icon: '📲', title: 'Լայն հասանելիություն', desc: 'Play Store, AppGallery, RuStore, APK ներբեռնում, վեբ տարբերակ, Chrome/Edge հավելված'},
                     {icon: '▦', title: 'Ցանց կամ Ցուցակ', desc: 'Ընտրեք կայանների տեսքը:'},
-                    {icon: '⚡', title: 'Իդեալական Էլեկտրոմոբիլների համար', desc: "Անփոխարինելի BYD, DEEPAL, LI և այլն:"},
-                    {icon: '➕', title: 'Սեփական կայաններ', desc: 'Ավելացրեք ձեր սեփական հղումները շուտով:', isSoon: true},
-                    {icon: '🚗', title: 'Android Auto', desc: 'Կառավարեք մեքենայի էկրանից շուտով:', isSoon: true}
+                    {icon: '⚡', title: 'Իդեալական Էլեկտրոմոբիլների համար', desc: "Անփոխարինելի ռադիո հավելված BYD, DEEPAL, LI, Mazda և այլ մեքենաների համար:"},
+                    {icon: '➕', title: 'Սեփական կայաններ', desc: 'Ավելացրեք ձեր սեփական կայանների հղումները:', isSoon: true},
+                    {icon: '🚗', title: 'Android Auto', desc: 'Ցուցադրեք ArmRadio հավելվածը Android հեռախոսից՝ Android Auto ունեցող մեքենայի էկրանին', isSoon: true}
                 ]
             },
             'ru': {
                 'page-title': 'ArmRadio - Армянское Радио Онлайн',
-                'nav-live': 'Веб версия', 'nav-features': 'Особенности', 'nav-contact': 'Контакт',
+                'nav-live': 'Слушать сейчас', 'nav-features': 'Особенности', 'nav-contact': 'Контакт',
                 'hero-title': 'Все Армянские Радиостанции в', 'hero-title-span': 'Одном Бесплатном Приложении.',
-                'hero-description': '<strong>ArmRadio</strong> объединяет <strong>все армянские онлайн </strong> радиостанции в одном месте.',
-                'live-title': 'Прямой Эфир', 'live-subtitle': 'Выберите станцию и наслаждайтесь армянской музыкой.',
+                'hero-description': 'Доступно для <strong>Android</strong> и в виде расширения для <strong>Chrome</strong> и <strong>Edge</strong>. На <strong>iOS</strong> и других системах можно пользоваться <strong>веб-версией</strong>',
+                'live-title': 'Слушать сейчас', 'live-subtitle': 'Выберите радиостанцию и слушайте музыку прямо в браузере',
                 'section-title': 'Создано для лучшего опыта', 'section-subtitle': 'Просто, надежно и всегда актуально.',
                 'contact-title': 'Связаться с нами', 'contact-subtitle': 'Есть предложение или нашли ошибку? Напишите нам!',
                 'lbl-name': 'Имя', 'lbl-email': 'Эл. почта', 'lbl-message': 'Сообщение',
                 'ph-name': 'Ваше имя', 'ph-msg': 'Чем мы можем помочь?',
-                'btn-send': 'Отправить', 'badge-new': 'НОВОЕ', 'badge-soon': 'Скоро', 'text-listen-online': 'Слушать Онлайн',
+                'btn-send': 'Отправить', 'badge-new': 'НОВОЕ', 'badge-soon': 'Скоро', 'text-listen-online': 'Слушать сейчас',
+                'player-status': 'Прямой эфир',
                 'features': [
                     {icon: '✨', title: 'Без Рекламы', desc: 'Наслаждайтесь качественным потоком без перерывов.'},
                     {icon: '⚙️', title: 'Автообновление', desc: 'Список станций обновляется автоматически.'},
@@ -361,11 +365,11 @@
                     {icon: '🌗', title: 'Темная тема', desc: 'Переключайтесь между светлой и темной темами.'},
                     {icon: '↔️', title: 'Адаптивный дизайн', desc: 'Идеально для телефонов и магнитол авто.'},
                     {icon: '♥', title: 'Избранное', desc: 'Быстрый доступ к любимым станциям.'},
-                    {icon: '📲', title: 'Все магазины', desc: 'Доступно в Play Store, AppGallery и RuStore.'},
+                    {icon: '📲', title: 'Все магазины', desc: 'Play Store, AppGallery, RuStore, прямая загрузка APK, веб-версия, расширение для Chrome/Edge'},
                     {icon: '▦', title: 'Сетка или Список', desc: 'Выберите удобный вид отображения.'},
                     {icon: '⚡', title: 'Для электромобилей', desc: "Незаменимо для BYD, Deepal, Li и др."},
                     {icon: '➕', title: 'Свои станции', desc: 'Добавление своих ссылок (скоро).', isSoon: true},
-                    {icon: '🚗', title: 'Android Auto', desc: 'Поддержка систем авто (скоро).', isSoon: true}
+                    {icon: '🚗', title: 'Android Auto', desc: '«Отображайте приложение ArmRadio с Android-телефона на головном устройстве автомобиля с поддержкой Android Auto', isSoon: true}
                 ]
             }
         };
@@ -392,6 +396,9 @@
             document.getElementById('btn-send').textContent = data['btn-send'];
             document.getElementById('text-listen-online').textContent = data['text-listen-online'];
             document.getElementById('badge-new').textContent = data['badge-new'];
+            
+            // New line to translate the "Live" text in player
+            document.getElementById('player-status-text').textContent = data['player-status'];
 
             const container = document.getElementById('feature-container');
             container.innerHTML = data.features.map(f => `
@@ -406,6 +413,8 @@
             document.querySelectorAll('.lang-switcher a').forEach(link => link.classList.remove('active'));
             document.getElementById(`lang-${lang}`).classList.add('active');
             localStorage.setItem('armradio_lang', lang);
+            
+            renderRadioGrid();
         }
 
         async function loadWebStations() {
@@ -415,31 +424,56 @@
                 const parser = new DOMParser();
                 const xmlDoc = parser.parseFromString(text, "text/xml");
                 const items = xmlDoc.getElementsByTagName("item");
-                const grid = document.getElementById('radio-grid');
-                grid.innerHTML = "";
-                Array.from(items).forEach(item => {
-                    const name = item.getAttribute('name');
-                    const url = item.getAttribute('url');
-                    const thumb = item.getAttribute('thumbnail');
-                    const card = document.createElement('div');
-                    card.className = 'radio-card';
-                    card.innerHTML = `<img src="${thumb}"><h4>${name}</h4>`;
-                    
-                    card.onclick = () => {
-                        // REMOVE SELECTED CLASS FROM ALL OTHER CARDS
-                        document.querySelectorAll('.radio-card').forEach(c => c.classList.remove('selected'));
-                        // ADD SELECTED CLASS TO CURRENT CARD
-                        card.classList.add('selected');
+                
+                allStations = Array.from(items).map(item => ({
+                    name: item.getAttribute('name'),
+                    name_ru: item.getAttribute('name_ru'),
+                    name_eng: item.getAttribute('name_eng'),
+                    url: item.getAttribute('url'),
+                    thumb: item.getAttribute('thumbnail')
+                }));
 
-                        document.getElementById('player-bar').style.display = "block";
-                        document.body.classList.add('player-active');
-                        document.getElementById('now-playing-name').textContent = name;
-                        document.getElementById('player-img').src = thumb;
-                        audio.src = url; audio.play();
-                    };
-                    grid.appendChild(card);
-                });
+                renderRadioGrid();
             } catch (e) { console.error(e); }
+        }
+
+        function renderRadioGrid() {
+            const grid = document.getElementById('radio-grid');
+            if (!grid) return;
+            
+            const lang = localStorage.getItem('armradio_lang') || 'am';
+            grid.innerHTML = "";
+
+            allStations.forEach(station => {
+                let displayName = station.name;
+                if(lang === 'en' && station.name_eng) displayName = station.name_eng;
+                if(lang === 'ru' && station.name_ru) displayName = station.name_ru;
+
+                const card = document.createElement('div');
+                card.className = (currentPlayingUrl === station.url) ? 'radio-card selected' : 'radio-card';
+                card.innerHTML = `<img src="${station.thumb}"><h4>${displayName}</h4>`;
+                
+                card.onclick = () => {
+                    document.querySelectorAll('.radio-card').forEach(c => c.classList.remove('selected'));
+                    card.classList.add('selected');
+
+                    document.getElementById('player-bar').style.display = "block";
+                    document.body.classList.add('player-active');
+                    document.getElementById('now-playing-name').textContent = displayName;
+                    document.getElementById('player-img').src = station.thumb;
+                    
+                    if (audio.src !== station.url) {
+                        audio.src = station.url;
+                        currentPlayingUrl = station.url;
+                        audio.play();
+                    }
+                };
+                grid.appendChild(card);
+                
+                if(currentPlayingUrl === station.url) {
+                    document.getElementById('now-playing-name').textContent = displayName;
+                }
+            });
         }
 
         audio.onplay = () => { playBtn.textContent = '⏹'; vizContainer.classList.add('playing'); };
@@ -454,12 +488,12 @@
             setInterval(() => {
                 const active = document.querySelector('.screenshot.active');
                 const next = active.nextElementSibling || document.getElementById('img1');
-                active.className = 'screenshot inactive'; next.className = 'screenshot active';
+                if(active && next) {
+                    active.className = 'screenshot inactive'; 
+                    next.className = 'screenshot active';
+                }
             }, 4000);
         });
     </script>
 </body>
 </html>
-
-
-
