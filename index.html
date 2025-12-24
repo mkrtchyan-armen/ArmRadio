@@ -214,49 +214,28 @@ body.dark .btn-store:hover {
         .btn-submit { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; font-weight: 700; cursor: pointer; width: 100%; }
 
         @media (max-width: 768px) {
-    header { 
-        border-radius: 0; 
-        margin-top: 0; 
-        padding: 10px 15px; 
-    }
-    
-    /* Changed to column-reverse so image is above or below text as preferred */
-    .hero { 
-        flex-direction: column-reverse; 
-        text-align: center; 
-        padding-top: 50px; 
-        gap: 30px;
-    }
+            header { border-radius: 0; margin-top: 0; padding: 10px 15px; }
+            
+            /* Change layout to 'column' and add padding-top for margin between header and title */
+            .hero { flex-direction: column; text-align: center; padding-top: 50px; }
+            
+            /* Fix: Add horizontal padding to hero-content so it doesn't hit the screen edges */
+            .hero-content { padding: 0 10px; }
 
-    /* FIX: Added horizontal padding to ensure text/buttons never hit the screen edges */
-    .hero-content { 
-        width: 100%;
-        padding: 0 20px; /* This prevents hitting the left/right sides */
-    }
-
-    nav > a { display: none; }
-    
-    #visualizer-container { display: none; }
-    .player-info, .player-controls { width: auto; }
-    #volume-slider { display: none; }
-    
-    /* Adjust grid for landscape/small screens */
-    .download-grid { 
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 10px;
-    }
-    .btn-listen-online { grid-column: span 2; }
-}
-
-/* Optional: Extra safety for very short landscape phones */
-@media (max-height: 500px) and (orientation: landscape) {
-    .hero {
-        padding: 20px 0;
-    }
-    .hero-content {
-        padding: 0 40px; /* Extra padding for wider landscape views */
-    }
-}
+            /* Use 'nav > a' so only main text links are hidden, keeping language/theme buttons visible */
+            nav > a { display: none; }
+            
+            #visualizer-container { display: none; }
+            .player-info, .player-controls { width: auto; }
+            #volume-slider { display: none; }
+            
+            /* Adjust spacing for mobile readability */
+            .hero h1 { font-size: 2.4rem; margin-bottom: 15px; }
+            .hero p { margin-bottom: 30px; }
+            .phone-wrapper { margin-top: 30px; }
+            .download-grid { grid-template-columns: repeat(2, 1fr); }
+            .btn-listen-online { grid-column: span 2; }
+        }
     </style>
 </head>
 <body>
@@ -591,4 +570,3 @@ body.dark .btn-store:hover {
     </script>
 </body>
 </html>
-
