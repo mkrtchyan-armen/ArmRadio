@@ -219,6 +219,9 @@ body.dark .btn-store:hover {
             /* Change layout to 'column' and add padding-top for margin between header and title */
             .hero { flex-direction: column; text-align: center; padding-top: 50px; }
             
+            /* Fix: Add horizontal padding to hero-content so it doesn't hit the screen edges */
+            .hero-content { padding: 0 10px; }
+
             /* Use 'nav > a' so only main text links are hidden, keeping language/theme buttons visible */
             nav > a { display: none; }
             
