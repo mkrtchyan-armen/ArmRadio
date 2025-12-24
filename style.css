@@ -63,7 +63,7 @@ header {
 }
 
 .logo { font-size: 1.6rem; font-weight: 800; display: flex; align-items: center; gap: 12px; background: var(--primary-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-.logo img { height: 38px; width: 38px; border-radius: 50%; border: 2px solid var(--primary); padding: 2px; background: white; -webkit-text-fill-color: initial; }
+.logo img { height: 38px; width: 38px; border-radius: 50%; background: white; -webkit-text-fill-color: initial; }
 
 nav { display: flex; align-items: center; }
 nav a { text-decoration: none; color: var(--text-dark); font-weight: 500; margin-left: 25px; transition: color 0.3s; }
