@@ -214,28 +214,24 @@ body.dark .btn-store:hover {
         .btn-submit { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 8px; font-weight: 700; cursor: pointer; width: 100%; }
 
         @media (max-width: 768px) {
-            /* Fix: keep margins for container on mobile */
-            .container { padding: 0 20px; }
-            
             header { border-radius: 0; margin-top: 0; padding: 10px 15px; }
-            .hero { flex-direction: column-reverse; text-align: center; }
             
-            /* Fix: Only hide navigation text links, keeping lang-switcher and theme-toggle visible */
+            /* Change layout to 'column' and add padding-top for margin between header and title */
+            .hero { flex-direction: column; text-align: center; padding-top: 50px; }
+            
+            /* Use 'nav > a' so only main text links are hidden, keeping language/theme buttons visible */
             nav > a { display: none; }
-            .lang-switcher { margin-left: 10px; }
-            .theme-toggle { margin-left: 8px; }
-
-            /* Fix: Hide the empty screenshot rectangle on mobile devices */
-            .phone-wrapper { display: none; }
             
             #visualizer-container { display: none; }
             .player-info, .player-controls { width: auto; }
             #volume-slider { display: none; }
             
-            /* Responsive Grid adjustments */
+            /* Adjust spacing for mobile readability */
+            .hero h1 { font-size: 2.4rem; margin-bottom: 15px; }
+            .hero p { margin-bottom: 30px; }
+            .phone-wrapper { margin-top: 30px; }
             .download-grid { grid-template-columns: repeat(2, 1fr); }
             .btn-listen-online { grid-column: span 2; }
-            .hero h1 { font-size: 2.2rem; }
         }
     </style>
 </head>
