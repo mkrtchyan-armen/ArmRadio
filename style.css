@@ -164,6 +164,22 @@ body.dark .btn-store:hover {
     line-height: 1.25;
 }
 
+.https-warning {
+    text-align: center;
+    max-width: 800px;
+    margin: 30px auto 0 auto;
+    padding: 0 20px;
+    font-size: 0.9rem;
+    color: #777;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* Մուգ թեմայի համար */
+body.dark .https-warning {
+    color: #aaa;
+}
+
 .section-title p {
     margin-top: 0;
     line-height: 1.6;
