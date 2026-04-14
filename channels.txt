@@ -38,7 +38,7 @@
     <item name="Radio Energy" name_ru="Radio Energy" name_eng="Radio Energy" url="https://eu.stream4cast.com/proxy/energyfm/stream" thumbnail="https://radio.armblog.net/energy.png"/>
     <item name="Sputnik Armenia" name_ru="Sputnik Армения" name_eng="Sputnik Armenia" url="https://icecast-rian.cdnvideo.ru/voicearm1" thumbnail="https://radio.armblog.net/sputnik.jpg"/>
     <item name="Voice of Van" name_ru="Voice of Van" name_eng="Voice of Van" url="http://23.92.21.22/;stream.nsv" thumbnail="https://radio.armblog.net/voice.jpg"/>
-    <item name="Yerevan Nights" name_ru="Yerevan Nights" name_eng="Yerevan Nights" url="https://radio.yerevannights.com:81/YerevanNights" thumbnail="https://radio.armblog.net/nights.png"/>
+    <item name="Yerevan Nights" name_ru="Yerevan Nights" name_eng="Yerevan Nights" url="https://icecast.worldweb.services/Web" thumbnail="https://radio.armblog.net/nights.png"/>
     <item name="XFM ռադիո" name_ru="Радио XFM" name_eng="XFM Radio" url="https://eu.stream4cast.com/proxy/xfmradio/stream" thumbnail="https://radio.armblog.net/xfm.png"/>
     <item name="Радио Мир" name_ru="Радио Мир" name_eng="Radio Mir" url="https://icecast-mirtv.cdnvideo.ru/radio_mir_256" thumbnail="https://radio.armblog.net/mir.jpg"/>
     <item name="Радио Шансон Ереван" name_ru="Радио Шансон Ереван" name_eng="Radio Chanson Yerevan" url="https://eu.stream4cast.com/proxy/ulissesm/stream" thumbnail="https://radio.armblog.net/radio_shanson.png"/>
