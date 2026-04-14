@@ -17,7 +17,7 @@
     <item name="Ռադիո Մարիամ" name_ru="Радио Мариам" name_eng="Radio Mariam" url="https://live.radiomariam.am/RadioMariam" thumbnail="https://radio.armblog.net/mariam.jpg"/>
     <item name="Ռադիո Մարշալ" name_ru="Радио Маршал" name_eng="Radio Marshal" url="http://eu.stream4cast.com:8030/;stream.mp3" thumbnail="https://radio.armblog.net/marshal.jpg"/>
     <item name="Ռադիո Մշակույթ" name_ru="Радио Культура" name_eng="Radio Culture" url="https://eu1.stream4cast.com/proxy/aamiry01/stream" thumbnail="https://radio.armblog.net/mshakuyt.jpg"/>
-    <item name="Ռադիո Յան" name_ru="Радио Ян" name_eng="Radio Yan" url="https://83.169.36.75:8000/stream" thumbnail="https://radio.armblog.net/yan.jpg"/>
+    <item name="Ռադիո Յան" name_ru="Радио Ян" name_eng="Radio Yan" url="https://237.185.153.160.host.secureserver.net/proxy/radioyan1/stream" thumbnail="https://radio.armblog.net/yan.jpg"/>
     <item name="Ռադիո Շանսոն" name_ru="Радио Шансон" name_eng="Radio Chanson" url="https://chanson.hostingradio.ru:8041/chanson128.mp3" thumbnail="https://radio.armblog.net/shanson.png"/>
     <item name="Ռադիո Ջան" name_ru="Радио Джан" name_eng="Radio Jan" url="http://s7.voscast.com:10258/radiojan" thumbnail="https://radio.armblog.net/jan.png"/>
     <item name="Ռադիո Ջան USA" name_ru="Радио Джан USA" name_eng="Radio Jan USA" url="https://s4.voscast.com:8865/stream?1734367587939" thumbnail="https://radio.armblog.net/jan_usa.png"/>
