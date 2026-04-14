@@ -29,7 +29,7 @@
     <item name="Ռադիո Kiss FM" name_ru="Радио Kiss FM" name_eng="Radio Kiss FM" url="https://am.radioaurora.am/kiss" thumbnail="https://radio.armblog.net/kiss.jpg"/>
     <item name="Ռադիո Yeraz" name_ru="Радио Ераз" name_eng="Radio Yeraz" url="https://streaming05.liveboxstream.uk/proxy/radioye3/stream?1734368159687" thumbnail="https://radio.armblog.net/yeraz.jpg"/>
     <item name="Ռադիո Ֆամա" name_ru="Радио Фама" name_eng="Radio Fama" url="http://eu.stream4cast.com:8036/stream" thumbnail="https://radio.armblog.net/fama.png"/>
-    <item name="Ռադիո 105.5" name_ru="Радио 105.5" name_eng="Radio 105.5" url="http://14842.cloudrad.io:9536/live?ver=627240" thumbnail="https://radio.armblog.net/fm1055.png"/>
+    <item name="Ռադիո 105.5" name_ru="Радио 105.5" name_eng="Radio 105.5" url="https://audio.cloudrad.io/3745421d/live?ver=568694" thumbnail="https://radio.armblog.net/fm1055.png"/>
     <item name="Armenian Gospel Radio" name_ru="Armenian Gospel Radio" name_eng="Armenian Gospel Radio" url="https://s8.myradiostream.com/:15554/listen.mp3" thumbnail="https://radio.armblog.net/gospel.jpg"/>
     <item name="Armenie" name_ru="Armenie" name_eng="Armenie" url="http://direct.radioarmenie.com:9029/stream" thumbnail="https://radio.armblog.net/armenie.jpg"/>
     <item name="Ayp-FM" name_ru="Ayp-FM" name_eng="Ayp-FM" url="https://stric6.streamakaci.com/radioayp.mp3" thumbnail="https://radio.armblog.net/ayp.png"/>
