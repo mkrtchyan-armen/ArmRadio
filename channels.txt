@@ -19,7 +19,7 @@
     <item name="Ռադիո Մշակույթ" name_ru="Радио Культура" name_eng="Radio Culture" url="https://eu1.stream4cast.com/proxy/aamiry01/stream" thumbnail="https://radio.armblog.net/mshakuyt.jpg"/>
     <item name="Ռադիո Յան" name_ru="Радио Ян" name_eng="Radio Yan" url="https://83.169.36.75:8000/stream" thumbnail="https://radio.armblog.net/yan.jpg"/>
     <item name="Ռադիո Շանսոն" name_ru="Радио Шансон" name_eng="Radio Chanson" url="https://chanson.hostingradio.ru:8041/chanson128.mp3" thumbnail="https://radio.armblog.net/shanson.png"/>
-    <item name="Ռադիո Ջան" name_ru="Радио Джан" name_eng="Radio Jan" url="http://s7.voscast.com:10258/;" thumbnail="https://radio.armblog.net/jan.png"/>
+    <item name="Ռադիո Ջան" name_ru="Радио Джан" name_eng="Radio Jan" url="http://s7.voscast.com:10258/radiojan" thumbnail="https://radio.armblog.net/jan.png"/>
     <item name="Ռադիո Ջան USA" name_ru="Радио Джан USA" name_eng="Radio Jan USA" url="https://s4.voscast.com:8865/stream?1734367587939" thumbnail="https://radio.armblog.net/jan_usa.png"/>
     <item name="Ռադիո Վան" name_ru="Радио Ван" name_eng="Radio Van" url="https://stream.radiovan.fm:8000/96_stereo" thumbnail="https://radio.armblog.net/van.png"/>
     <item name="Ռադիո Վեմ" name_ru="Радио Вем" name_eng="Radio Vem" url="https://eu1.stream4cast.com/proxy/vemradio/stream" thumbnail="https://radio.armblog.net/vem.jpg"/>
