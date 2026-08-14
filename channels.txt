@@ -8,7 +8,7 @@
     <item name="Պաշտէ" name_ru="Паште" name_eng="Pashte" url="https://streams.radio.co/sa0bf8ec29/listen" thumbnail="https://radio.armblog.net/pashte.png"/>
     <item name="Ռադիո Ազալիա" name_ru="Радио Азалия" name_eng="Radio Azalia" url="https://stream-153.zeno.fm/s865660v7hhvv" thumbnail="https://radio.armblog.net/azalia.jpg"/>u
     <item name="Ռադիո Արևիկ" name_ru="Радио Аревик" name_eng="Radio Arevik" url="https://eu1.stream4cast.com/proxy/aamiryan/stream" thumbnail="https://radio.armblog.net/arevik.png"/>
-    <item name="Ռադիո Ավրորա" name_ru="Радио Аврора" name_eng="Radio Aurora" url="https://am.radioaurora.am/al.mp3" thumbnail="https://radio.armblog.net/aurora.png"/>
+    <item name="Ռադիո Ավրորա" name_ru="Радио Аврора" name_eng="Radio Aurora" url="https://de.auroramedia.am/aurora.mp3" thumbnail="https://radio.armblog.net/aurora.png" referer="https://www.radioaurora.am/"/>
     <item name="Երիտասարդության ձայնը" name_ru="Голос Молодежи" name_eng="Youth Voice" url="http://65.108.98.93:8123/stream?1734367162857" thumbnail="https://radio.armblog.net/yerit_dzayn.jpg"/>
     <item name="Ռադիո Երևան" name_ru="Радио Ереван" name_eng="Radio Yerevan" url="https://eu1.stream4cast.com/proxy/arradioi/stream" thumbnail="https://radio.armblog.net/yerevan.png"/>
     <item name="Ռադիո Խաղաղություն" name_ru="Радио Хахахутюн" name_eng="Radio Khaxaxutyun" url="https://listen6.myradio24.com/serega1975" thumbnail="https://radio.armblog.net/xaxaxutyun.png"/>
