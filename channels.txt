@@ -27,7 +27,7 @@
     <item name="Ռադիո Arev" name_ru="Радио Арев" name_eng="Radio Arev" url="https://cast6.asurahosting.com/proxy/radioare/stream?1734368079092" thumbnail="https://radio.armblog.net/arev.png"/>
     <item name="Ռադիո AYK" name_ru="Радио AYK" name_eng="Radio AYK" url="https://listen.streamaudio.co/proxy/radioayk/stream" thumbnail="https://radio.armblog.net/ayk.jpg"/>
     <item name="Ռադիո EuropaPlus" name_ru="Радио Европа Плюс" name_eng="Radio Europa Plus" url="https://ep256.hostingradio.ru:8052/europaplus256.mp3" thumbnail="https://radio.armblog.net/europa_plus.png"/>
-    <item name="Ռադիո Kiss FM" name_ru="Радио Kiss FM" name_eng="Radio Kiss FM" url="https://am.radioaurora.am/kiss" thumbnail="https://radio.armblog.net/kiss.jpg"/>
+    <item name="Ռադիո Kiss FM" name_ru="Радио Kiss FM" name_eng="Radio Kiss FM" url="https://de.auroramedia.am/kissfm.mp3" thumbnail="https://radio.armblog.net/kiss.jpg" referer="https://kissfm.am/"/>
     <item name="Ռադիո Yeraz" name_ru="Радио Ераз" name_eng="Radio Yeraz" url="https://streaming05.liveboxstream.uk/proxy/radioye3/stream?1734368159687" thumbnail="https://radio.armblog.net/yeraz.jpg"/>
     <item name="Ռադիո Ֆամա" name_ru="Радио Фама" name_eng="Radio Fama" url="http://eu.stream4cast.com:8036/stream" thumbnail="https://radio.armblog.net/fama.png"/>
     <item name="Ռադիո 105.5" name_ru="Радио 105.5" name_eng="Radio 105.5" url="https://audio.cloudrad.io/3745421d/live?ver=568694" thumbnail="https://radio.armblog.net/fm1055.png"/>
