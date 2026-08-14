@@ -1,12 +1,12 @@
 <radioStations>
     <item name="Հանրային ռադիո" name_ru="Общественное радио" name_eng="Public Radio of Armenia" url="https://eu1.stream4cast.com/proxy/publicra/stream/;stream.mp3" thumbnail="https://radio.armblog.net/hanrayin.png"/>
-    <item name="Ավտոռադիո" name_ru="Авторадио" name_eng="Autoradio" url="https://de.auroramedia.am/autoradio.mp3" thumbnail="https://radio.armblog.net/autoradio.png" referer="https://autoradio.am"/>
+    <item name="Ավտոռադիո" name_ru="Авторадио" name_eng="Autoradio" url="https://de.auroramedia.am/autoradio.mp3" thumbnail="https://radio.armblog.net/autoradio.png" referer="https://autoradio.am/"/>
     <item name="Իմ Ռադիո" name_ru="Им Радио" name_eng="Im Radio" url="https://eu1.stream4cast.com/proxy/aamiry02/stream" thumbnail="https://radio.armblog.net/im_radio.jpg"/>
     <item name="Լավ Ռադիո Mix" name_ru="Лав Радио Mix" name_eng="Lav Radio Mix" url="https://eu.stream4cast.com/proxy/lavradiomix/stream" thumbnail="https://radio.armblog.net/lav_radio_mix.png"/>
     <item name="Լավ Ռադիո" name_ru="Лав Радио" name_eng="Lav Radio" url="https://eu.stream4cast.com/proxy/lavradio/stream" thumbnail="https://radio.armblog.net/lav_radio.png"/>
     <item name="Լրատվական ռադիո" name_ru="Новостное радио" name_eng="News Radio" url="http://212.34.233.78:8000/live" thumbnail="https://radio.armblog.net/lratvakan.png"/>
     <item name="Պաշտէ" name_ru="Паште" name_eng="Pashte" url="https://streams.radio.co/sa0bf8ec29/listen" thumbnail="https://radio.armblog.net/pashte.png"/>
-    <item name="Ռադիո Ազալիա" name_ru="Радио Азалия" name_eng="Radio Azalia" url="https://stream-153.zeno.fm/s865660v7hhvv" thumbnail="https://radio.armblog.net/azalia.jpg"/>
+    <item name="Ռադիո Ազալիա" name_ru="Радио Азалия" name_eng="Radio Azalia" url="https://stream-153.zeno.fm/s865660v7hhvv" thumbnail="https://radio.armblog.net/azalia.jpg"/>u
     <item name="Ռադիո Արևիկ" name_ru="Радио Аревик" name_eng="Radio Arevik" url="https://eu1.stream4cast.com/proxy/aamiryan/stream" thumbnail="https://radio.armblog.net/arevik.png"/>
     <item name="Ռադիո Ավրորա" name_ru="Радио Аврора" name_eng="Radio Aurora" url="https://am.radioaurora.am/al.mp3" thumbnail="https://radio.armblog.net/aurora.png"/>
     <item name="Երիտասարդության ձայնը" name_ru="Голос Молодежи" name_eng="Youth Voice" url="http://65.108.98.93:8123/stream?1734367162857" thumbnail="https://radio.armblog.net/yerit_dzayn.jpg"/>
